@@ -1,1 +1,1 @@
-devtools\bin\vpc.exe /hl2mp +game /mksln games.sln
+devtools\bin\vpc.exe /cstrike /dod /ep2 /episodic /hl1 /hl1mp /hl2 /hl2mp /lostcoast /portal +game /mksln games.sln
