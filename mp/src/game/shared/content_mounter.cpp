@@ -25,70 +25,60 @@ void AddCSS(const char* path)
 {
 	filesystem->AddSearchPath(CFmtStr("%s/cstrike", path), "GAME", PATH_ADD_TO_HEAD);
 	filesystem->AddSearchPath(CFmtStr("%s/cstrike/cstrike_pak.vpk", path), "GAME", PATH_ADD_TO_HEAD);
-	g_pVGuiLocalize->AddFile("resource/cstrike_%language%.txt");
 }
 
 void AddDOD(const char* path)
 {
 	filesystem->AddSearchPath(CFmtStr("%s/dod", path), "GAME", PATH_ADD_TO_HEAD);
 	filesystem->AddSearchPath(CFmtStr("%s/dod/dod_pak.vpk", path), "GAME", PATH_ADD_TO_HEAD);
-	g_pVGuiLocalize->AddFile("resource/dod_%language%.txt");
 }
 
 void AddEP1(const char* path)
 {
 	filesystem->AddSearchPath(CFmtStr("%s/episodic", path), "GAME", PATH_ADD_TO_HEAD);
 	filesystem->AddSearchPath(CFmtStr("%s/episodic/ep1_pak.vpk", path), "GAME", PATH_ADD_TO_HEAD);
-	g_pVGuiLocalize->AddFile("resource/episodic_%language%.txt");
 }
 
 void AddEP2(const char* path)
 {
 	filesystem->AddSearchPath(CFmtStr("%s/ep2", path), "GAME", PATH_ADD_TO_HEAD);
 	filesystem->AddSearchPath(CFmtStr("%s/ep2/ep2_pak.vpk", path), "GAME", PATH_ADD_TO_HEAD);
-	g_pVGuiLocalize->AddFile("resource/ep2_%language%.txt");
 }
 
 void AddHL1(const char* path)
 {
 	filesystem->AddSearchPath(CFmtStr("%s/hl1", path), "GAME", PATH_ADD_TO_HEAD);
 	filesystem->AddSearchPath(CFmtStr("%s/hl1/hl1_pak.vpk", path), "GAME", PATH_ADD_TO_HEAD);
-	g_pVGuiLocalize->AddFile("resource/hl1_%language%.txt");
 }
 
 void AddHL1MP(const char* path)
 {
 	filesystem->AddSearchPath(CFmtStr("%s/hl1mp", path), "GAME", PATH_ADD_TO_HEAD);
 	filesystem->AddSearchPath(CFmtStr("%s/hl1mp/hl1mp_pak.vpk", path), "GAME", PATH_ADD_TO_HEAD);
-	g_pVGuiLocalize->AddFile("resource/hl1mp_%language%.txt");
 }
 
 void AddHL2(const char* path)
 {
 	filesystem->AddSearchPath(CFmtStr("%s/hl2", path), "GAME", PATH_ADD_TO_HEAD);
 	filesystem->AddSearchPath(CFmtStr("%s/hl2/hl2_pak.vpk", path), "GAME", PATH_ADD_TO_HEAD);
-	g_pVGuiLocalize->AddFile("resource/hl2_%language%.txt");
 }
 
 void AddHL2MP(const char* path)
 {
 	filesystem->AddSearchPath(CFmtStr("%s/hl2mp", path), "GAME", PATH_ADD_TO_HEAD);
 	filesystem->AddSearchPath(CFmtStr("%s/hl2mp/hl2mp_pak.vpk", path), "GAME", PATH_ADD_TO_HEAD);
-	g_pVGuiLocalize->AddFile("resource/hl2mp_%language%.txt");
 }
 
 void AddLostCoast(const char* path)
 {
 	filesystem->AddSearchPath(CFmtStr("%s/lostcoast", path), "GAME", PATH_ADD_TO_HEAD);
 	filesystem->AddSearchPath(CFmtStr("%s/lostcoast/lostcoast_pak.vpk", path), "GAME", PATH_ADD_TO_HEAD);
-	g_pVGuiLocalize->AddFile("resource/lostcoast_%language%.txt");
 }
 
 void AddPortal(const char* path)
 {
 	filesystem->AddSearchPath(CFmtStr("%s/portal", path), "GAME", PATH_ADD_TO_HEAD);
 	filesystem->AddSearchPath(CFmtStr("%s/portal/portal_pak.vpk", path), "GAME", PATH_ADD_TO_HEAD);
-	g_pVGuiLocalize->AddFile("resource/portal_%language%.txt");
 }
 
 void MountExtraContent()
