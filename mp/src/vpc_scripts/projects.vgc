@@ -16,16 +16,16 @@ $Project "captioncompiler"
 
 $Project "client"
 {
-	"game\client\client_hl2.vpc"		[($WIN32||$X360||$POSIX) && $HL2]
+	"game\client\client_cstrike.vpc"	[($WIN32||$POSIX) && $CSTRIKE]
 	"game\client\client_dod.vpc"		[($WIN32||$POSIX) && $DOD]
 	"game\client\client_ep2.vpc"		[($WIN32||$X360||$POSIX) && $EP2]
 	"game\client\client_episodic.vpc"	[($WIN32||$X360||$POSIX) && $EPISODIC]
-	"game\client\client_lostcoast.vpc"	[($WIN32||$POSIX) && $LOSTCOAST]
-	"game\client\client_cstrike.vpc"	[($WIN32||$POSIX) && $CSTRIKE]
-	"game\client\client_portal.vpc"		[($WIN32||$X360||$POSIX) && $PORTAL]
-	"game\client\client_hl2mp.vpc"		[($WIN32||$POSIX) && $HL2MP]
 	"game\client\client_hl1.vpc"		[($WIN32||$POSIX) && $HL1]
 	"game\client\client_hl1mp.vpc"		[($WIN32||$POSIX) && $HL1MP]
+	"game\client\client_hl2.vpc"		[($WIN32||$X360||$POSIX) && $HL2]
+	"game\client\client_hl2mp.vpc"		[($WIN32||$POSIX) && $HL2MP]
+	"game\client\client_lostcoast.vpc"	[($WIN32||$POSIX) && $LOSTCOAST]
+	"game\client\client_portal.vpc"		[($WIN32||$X360||$POSIX) && $PORTAL]
 }
 
 $Project "fgdlib"
@@ -35,16 +35,16 @@ $Project "fgdlib"
 
 $Project "game_shader_dx9"
 {
-	"materialsystem\stdshaders\game_shader_dx9_hl2.vpc"			[$HL2]
+	"materialsystem\stdshaders\game_shader_dx9_cstrike.vpc"		[$CSTRIKE]
 	"materialsystem\stdshaders\game_shader_dx9_dod.vpc"			[$DOD]
 	"materialsystem\stdshaders\game_shader_dx9_ep2.vpc"			[$EP2]
 	"materialsystem\stdshaders\game_shader_dx9_episodic.vpc"	[$EPISODIC]
-	"materialsystem\stdshaders\game_shader_dx9_lostcoast.vpc"	[$LOSTCOAST]
-	"materialsystem\stdshaders\game_shader_dx9_cstrike.vpc"		[$CSTRIKE]
-	"materialsystem\stdshaders\game_shader_dx9_portal.vpc"		[$PORTAL]
-	"materialsystem\stdshaders\game_shader_dx9_hl2mp.vpc"		[$HL2MP]
 	"materialsystem\stdshaders\game_shader_dx9_hl1.vpc"			[$HL1]
 	"materialsystem\stdshaders\game_shader_dx9_hl1mp.vpc"		[$HL1MP]
+	"materialsystem\stdshaders\game_shader_dx9_hl2.vpc"			[$HL2]
+	"materialsystem\stdshaders\game_shader_dx9_hl2mp.vpc"		[$HL2MP]
+	"materialsystem\stdshaders\game_shader_dx9_lostcoast.vpc"	[$LOSTCOAST]
+	"materialsystem\stdshaders\game_shader_dx9_portal.vpc"		[$PORTAL]
 }
 
 $Project "glview"
@@ -59,16 +59,16 @@ $Project "height2normal"
 
 $Project "server"
 {
-	"game\server\server_hl2.vpc"		[($WIN32||$X360||$POSIX) && $HL2]
+	"game\server\server_cstrike.vpc"	[($WIN32||$POSIX) && $CSTRIKE]
 	"game\server\server_dod.vpc"		[($WIN32||$POSIX) && $DOD]
 	"game\server\server_ep2.vpc"		[($WIN32||$X360||$POSIX) && $EP2]
 	"game\server\server_episodic.vpc"	[($WIN32||$X360||$POSIX) && $EPISODIC]
-	"game\server\server_lostcoast.vpc"	[($WIN32||$POSIX) && $LOSTCOAST]
-	"game\server\server_cstrike.vpc"	[($WIN32||$POSIX) && $CSTRIKE]
-	"game\server\server_portal.vpc"		[($WIN32||$X360||$POSIX) && $PORTAL]
-	"game\server\server_hl2mp.vpc"		[($WIN32||$POSIX) && $HL2MP]
 	"game\server\server_hl1.vpc"		[($WIN32||$POSIX) && $HL1]
 	"game\server\server_hl1mp.vpc"		[($WIN32||$POSIX) && $HL1MP]
+	"game\server\server_hl2.vpc"		[($WIN32||$X360||$POSIX) && $HL2]
+	"game\server\server_hl2mp.vpc"		[($WIN32||$POSIX) && $HL2MP]
+	"game\server\server_lostcoast.vpc"	[($WIN32||$POSIX) && $LOSTCOAST]
+	"game\server\server_portal.vpc"		[($WIN32||$X360||$POSIX) && $PORTAL]
 }
 
 $Project "mathlib"
